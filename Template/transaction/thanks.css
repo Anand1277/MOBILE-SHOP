@@ -1,0 +1,12 @@
+.align{
+  padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: azure;
+    font-size: 40px;
+}
+
+body{
+    background-color: black;
+}
