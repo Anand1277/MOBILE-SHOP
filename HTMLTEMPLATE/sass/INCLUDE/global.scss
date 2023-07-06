@@ -1,0 +1,77 @@
+// Global classes
+
+button,button:focus{
+    outline:none !important;
+box-shadow: none !important;
+}
+.padd{
+    padding: 0px 15px; 
+    border-right:1px solid rgb(99, 181, 244);
+    // height: 580px;
+ 
+}
+
+.wid-200{
+    width: 200px;
+    height: 480px;
+    margin-left: -15px;
+}
+.wid{
+    width:150px;
+    padding: 0 auto;
+  
+
+}
+.mar-10{
+    margin: 10px;
+    margin-left: 27px;
+}
+.container-img{
+    position: relative;
+}
+ .btni{
+position: absolute;
+    top: 65%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:$color-second;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 7vh;
+    width: 20vh;
+ }
+
+ @media screen and (max-width:700px) {
+    .btni{
+        padding: 0px;
+        height: 5vh;
+        width: 15vh;
+        font-size: 10px;
+    }
+ }
+ @media screen and (min-width:1000px) {
+    .btni{
+        top:63%;
+        height: 8vh;
+        width: 30vh;
+        font-size: 20px;
+    }
+ }
+
+//  .owl-carousel .owl-theme{
+//     height: 300px;
+//  }
+
+
+.prod-img{
+    width: 290px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 41%;
+}
